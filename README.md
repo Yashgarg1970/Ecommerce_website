@@ -6,6 +6,7 @@ mail_username change with your emailid
 mail_password use your email (app password) 
 step 1 to create ecom_prjt named database 
 step 2 import ecom_prjt.sql
+#default admin panel = admin,admin
 
 
 
