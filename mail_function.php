@@ -29,9 +29,8 @@ require 'phpmailer/src/SMTP.php';
 		$mail->SMTPAuth = TRUE;
 		$mail->SMTPSecure ='ssl'; // tls or ssl
 		$mail->Port     = '465';
-		$mail->Username = 'contact.cara.shopping@gmail.com';
-		$mail->Password = "mavzxmcmjfikfboy
-		";
+		// $mail->Username = 'YOUR GMAIL ACCOUNT';
+		// $mail->Password = "APP PASSWORD IN GMAIL";
 		$mail->Host     = "smtp.gmail.com";
 		$mail->SetFrom("contact.cara.shopping@gmail.com", "support.cara-shopping.com");
 		$mail->AddAddress($email);
