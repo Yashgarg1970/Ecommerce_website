@@ -8,5 +8,6 @@ step 1 to create ecom_prjt named database
 step 2 import ecom_prjt.sql
 #default admin panel = admin,admin
 
+##create folder category inside img/dynamic_image/
 
 
