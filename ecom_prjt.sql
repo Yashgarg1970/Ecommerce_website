@@ -59,9 +59,7 @@ CREATE TABLE `cart` (
 -- Dumping data for table `cart`
 --
 
-INSERT INTO `cart` (`id`, `image`, `name`, `price`, `qty`, `total`) VALUES
-(7, 'Shop-cara129196.jpg', 'Shirt (Blue)', 200, 1, 200),
-(8, 'Shop-cara58412.jpg', 'Multi-coloured Shirt', 800, 1, 800);
+
 
 -- --------------------------------------------------------
 
@@ -79,8 +77,7 @@ CREATE TABLE `categories` (
 -- Dumping data for table `categories`
 --
 
-INSERT INTO `categories` (`id`, `c_name`, `c_image`) VALUES
-(1, 'shirts', 'Shop-cara748518.jpg');
+
 
 -- --------------------------------------------------------
 
@@ -103,9 +100,6 @@ CREATE TABLE `orders` (
 -- Dumping data for table `orders`
 --
 
-INSERT INTO `orders` (`id`, `u_name`, `order_id`, `order_price`, `order_date`, `status`, `address`, `trx_id`) VALUES
-(1, 'Yash_garg', 32873189, '400', '2023-06-28', 'on_delivery', 'DSEU G/F Sec-9 Dwarka', 'X323h292KID');
-
 -- --------------------------------------------------------
 
 --
@@ -122,9 +116,6 @@ CREATE TABLE `otp_expiry` (
 --
 -- Dumping data for table `otp_expiry`
 --
-
-INSERT INTO `otp_expiry` (`id`, `otp`, `is_expired`, `create_at`) VALUES
-(44, '731103', 1, '2023-06-28 10:00:08');
 
 -- --------------------------------------------------------
 
@@ -158,9 +149,7 @@ CREATE TABLE `products` (
 -- Dumping data for table `products`
 --
 
-INSERT INTO `products` (`id`, `p_name`, `p_image`, `p_price`, `p_disc`, `category`) VALUES
-(1, 'Shirt (Blue)', 'Shop-cara129196.jpg', 200, 'Floral Shirt With Blue Base', 'shirts'),
-(3, 'Multi-coloured Shirt', 'Shop-cara58412.jpg', 800, 'Blue And Reddish-Brown Denim Shirt', 'shirts');
+
 
 -- --------------------------------------------------------
 
@@ -180,8 +169,7 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `full_name`, `username`, `passsword`, `email`) VALUES
-(1, 'Yash Garg', 'YASH_garg', 'YASH@123#', 'yashgarg1970@gmail.com');
+
 
 -- --------------------------------------------------------
 
@@ -206,11 +194,6 @@ CREATE TABLE `user_ship` (
 -- Dumping data for table `user_ship`
 --
 
-INSERT INTO `user_ship` (`id`, `username`, `fname`, `lstname`, `addr`, `zip`, `city`, `statee`, `noo`, `altno`) VALUES
-(1, 'Yash_garg', 'yash', 'yash', 'yash', 'yash', 'yash', 'yash', 23982382, 2147483647),
-(2, 'Yash_garg', 'Yash', 'Garg', 'c-7a bharat vihar', '110059', 'Delhi', 'Delhi', 2147483647, 2147483647);
-
---
 -- Indexes for dumped tables
 --
 
